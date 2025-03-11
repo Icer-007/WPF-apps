@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Icer.Commons", "Icer.Commons\Icer.Commons.csproj", "{6D03FCD2-BC65-45CE-9B96-0A2D68A49F8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D03FCD2-BC65-45CE-9B96-0A2D68A49F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D03FCD2-BC65-45CE-9B96-0A2D68A49F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D03FCD2-BC65-45CE-9B96-0A2D68A49F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D03FCD2-BC65-45CE-9B96-0A2D68A49F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {124AAF0D-A54A-418F-9713-D54F083E1FF3}
+	EndGlobalSection
+EndGlobal
