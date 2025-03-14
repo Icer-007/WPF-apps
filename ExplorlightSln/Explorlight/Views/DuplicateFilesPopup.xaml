@@ -6,7 +6,7 @@
         xmlns:views="clr-namespace:Explorlight.Views"
         xmlns:conv="clr-namespace:Icer.WpfCommons.Converters;assembly=Icer.WpfCommons"
         mc:Ignorable="d"
-        Title="DuplicateFilesPopup" Height="450" Width="800">
+        Title="Duplicate file names" Height="450" Width="800">
     <Window.Resources>
         <conv:InverseBooleanConverter x:Key="InverseBooleanConverter" />
     </Window.Resources>
@@ -25,7 +25,7 @@
             </Grid.ColumnDefinitions>
 
             <Button  Content="_Copy to clipboard" Command="{Binding CommandCopyToClipboard}" />
-            <Button Grid.Column="1" Content="_Clean up" Command="{Binding CommandCleanUp}" />
+            <Button Grid.Column="1" Content="_Cleanup" Command="{Binding CommandCleanUp}" />
             <Button Grid.Column="2" Content="_Delete selected" Command="{Binding CommandDeleteSelected}"
                     ToolTip="Cannot delete files in safe mode (see application settings)"
                     ToolTipService.IsEnabled="{Binding IsDeletionAllowed, Converter={StaticResource InverseBooleanConverter}}" ToolTipService.ShowOnDisabled="True" />
@@ -69,6 +69,6 @@
             </ListView.ItemTemplate>
         </ListView>
 
-        <TextBlock Grid.Row="2" Text="{Binding Duplicates.Count, StringFormat='{}{0} duplicated files'}" />
+        <TextBlock Grid.Row="2" Text="{Binding Duplicates.Count, StringFormat='{}{0} duplicated file names'}" />
     </Grid>
 </Window>
